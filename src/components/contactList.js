@@ -12,7 +12,8 @@ const ContactList = (props) => {
       <ContactCard
         contact={contact}
         clickHander={deleteConactHandler}
-      ></ContactCard>
+        key={contact.id}
+      />
     );
   });
   return <div className="ui celled list">{renderContactList}</div>;
