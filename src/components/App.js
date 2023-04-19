@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 import "./App.css";
 import Header from "./Header";
 import AddContact from "./AddContact";
-import ContactList from "./ContactList";
+import ContactList from "src/components/ContactList.js";
 
 function App() {
   const LOCAL_STORAGE_KEY = "contacts";
