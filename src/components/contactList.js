@@ -1,5 +1,5 @@
-import React from "react";
-import ContactCard from "./ContactCard";
+import React from 'react';
+import ContactCard from './ContactCard';
 
 const ContactList = (props) => {
   console.log(props);
@@ -16,7 +16,7 @@ const ContactList = (props) => {
       />
     );
   });
-  return <div className="ui celled list">{renderContactList}</div>;
+  return <div className='ui celled list'>{renderContactList}</div>;
 };
 
 export default ContactList;
